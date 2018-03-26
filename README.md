@@ -87,3 +87,37 @@ ubuntu
 
 35 directories, 6 files
 ```
+
+## Quick Start
+
+### create /etc/apt/sources.list.d/play-ubuntu-18.04-ppa-github.list
+
+``` sh
+$ sudo sh -c 'echo "deb [trusted=yes] https://samwhelp.github.io/play-ubuntu-18.04-ppa/ubuntu bionic main" > /etc/apt/sources.list.d/play-ubuntu-18.04-ppa-github.list'
+```
+
+### apt-get update
+
+``` sh
+$ sudo apt-get update
+```
+
+### apt-get install
+
+``` sh
+$ sudo apt-get install play-lxqt
+```
+
+## Check Info
+
+### apt-cahce policy
+
+``` sh
+$ apt-cache policy play-lxqt
+```
+
+### apt-cahce showpkg
+
+``` sh
+$ apt-cache showpkg play-lxqt
+```
