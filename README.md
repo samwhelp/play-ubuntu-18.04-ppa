@@ -108,6 +108,7 @@ $ sudo apt-get update
 $ sudo apt-get install play-lxqt
 ```
 
+
 ## Check Info
 
 ### apt-cahce policy
@@ -120,4 +121,19 @@ $ apt-cache policy play-lxqt
 
 ``` sh
 $ apt-cache showpkg play-lxqt
+```
+
+
+## Wget Install
+
+### download deb
+
+``` sh
+$ wget -c 'https://samwhelp.github.io/play-ubuntu-18.04-ppa/ubuntu/pool/main/p/play-lxqt/play-lxqt_0.1.0_all.deb'
+```
+
+### dpkg -i
+
+``` sh
+$ sudo dpkg -i play-lxqt_0.1.0_all.deb
 ```
