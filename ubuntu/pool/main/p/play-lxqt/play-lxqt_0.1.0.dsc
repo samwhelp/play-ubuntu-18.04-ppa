@@ -12,8 +12,8 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  play-lxqt deb utils optional arch=all
 Checksums-Sha1:
- 2b94f3942864597301622256e868c85f499a76eb 20322 play-lxqt_0.1.0.tar.gz
+ 5e934c4b605538e0c3b2e14b6388a5f8e58cf646 20047 play-lxqt_0.1.0.tar.gz
 Checksums-Sha256:
- 20d813bdd734ab04ca79211ff1d0e4d126fb0cc8d29905674f9e93bac144cd27 20322 play-lxqt_0.1.0.tar.gz
+ 9c4cc54aa37e7d51cfd8bbe25134839187cecdfb9920654db24d31dc868dcd41 20047 play-lxqt_0.1.0.tar.gz
 Files:
- be9a586a70e9449eae422b8245b7a2e9 20322 play-lxqt_0.1.0.tar.gz
+ 66652485672447b4f5f909d024813fbe 20047 play-lxqt_0.1.0.tar.gz
